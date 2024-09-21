@@ -24,9 +24,6 @@ function CompanyDashboard() {
   const [selectedCandidate, setSelectedCandidate] = useState("");
 
   
-  
-  
-  
   useEffect(() => {
     const fetchCompaniesAndCandidates = async () => {
       try {
@@ -164,9 +161,13 @@ function CompanyDashboard() {
   return (
     <div className="Company" style={styling}>
       <Stack direction="horizontal" gap={3}>
+      
         <div className="p-2" ms-auto>
+        
           <Form className="CompanyForm" onSubmit={handleSubmit}>
+          <Card.Title className="rb-title">Registration Board</Card.Title>
             <Form.Group className="mb-3" controlId="formCompanyName">
+            
               <Form.Label>Company Name</Form.Label>
               <Form.Control
                 type="text"
@@ -180,21 +181,32 @@ function CompanyDashboard() {
             </Form.Group>
             <Button variant="primary" type="submit">Register Company</Button>
           </Form>
+         
         </div>
+        
 
-        <div className="p-2">
+        <div className="p-2" ms-auto>
           <Card className="RegisteredComputer">
             <Card.Body>
-              <Card.Title>Companies Registered</Card.Title>
+              <Card.Title className="cr-title">Companies Registered</Card.Title>
               <Card.Text>
-                <ul>{items.map((companyName, index) => <li key={index}>{companyName}</li>)}</ul>
+                <ul>
+                {items.length > 0 ? (
+                    items.map((companyName, index) => (
+                      <li key={index}>{companyName}</li>
+                    ))
+                  ) : (
+                    <li>No companies registered.</li>
+                  )}
+                </ul>
               </Card.Text>
             </Card.Body>
           </Card>
         </div>
 
-        <div className="p-2">
+        <div className="p-2" ms-auto>
           <Card >
+          <Card.Title className="rb-title">ShortListing Board</Card.Title>
             <Form.Group className="mb-3">
               <Form.Label>Select Company</Form.Label>
               <Form.Control as="select" onChange={handleCompanySelect} value={selectedCompany}>

@@ -21,7 +21,7 @@ useEffect(() => {
   }, [location.pathname]); // This will run every time the pathname changes
 
   return (
-    <Navbar className="bg-body-tertiary justify-content-between">
+    <Navbar className="bg-body-tertiary justify-content-between" fixed='top'>
       <Form inline="true">
         <Navbar.Brand href="/" className="brandName">PLACEMENT PORTAL</Navbar.Brand>
       </Form>

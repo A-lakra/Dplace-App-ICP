@@ -21,7 +21,7 @@ const CenterCard = () => {
   //  height: "30rem"
   // }
   return (
-    <Card  id="centercard">
+    <Card  id="centercard" >
       <Card.Img variant="top" src="https://www.jnncollege.edu.in/wp-content/uploads/2019/03/placementcell.png" />
       <Card.Body>
         <Card.Title>
