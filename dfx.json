@@ -1,0 +1,26 @@
+{
+  "canisters": {
+    "PlacementPortal_backend": {
+      "main": "src/PlacementPortal_backend/main.mo",
+      "type": "motoko"
+    },
+    "PlacementPortal_frontend": {
+      "dependencies": [
+        "PlacementPortal_backend"
+      ],
+      "source": [
+        "src/PlacementPortal_frontend/dist"
+      ],
+      "type": "assets",
+      "workspace": "PlacementPortal_frontend"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}

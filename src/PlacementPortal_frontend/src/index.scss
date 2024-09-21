@@ -1,0 +1,117 @@
+// body {
+//   font-family: sans-serif;
+//   font-size: 1.5rem;
+// }
+
+// img {
+//   max-width: 50vw;
+//   max-height: 25vw;
+//   display: block;
+//   margin: auto;
+// }
+
+// form {
+//   display: flex;
+//   justify-content: center;
+//   gap: 0.5em;
+//   flex-flow: row wrap;
+//   max-width: 40vw;
+//   margin: auto;
+//   align-items: baseline;
+// }
+
+// button[type="submit"] {
+//   padding: 5px 20px;
+//   margin: 10px auto;
+//   float: right;
+// }
+
+// #greeting {
+//   margin: 10px auto;
+//   padding: 10px 60px;
+//   border: 1px solid #222;
+// }
+
+// #greeting:empty {
+//   display: none;
+// }
+
+
+.bg-body-tertiary
+{
+  background-color: rgb(169, 187, 205) !important;
+  padding: 20px}
+.brandName{
+  color: rgb(74, 71, 74);
+  font-family: "Dela Gothic One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-left: 20px;
+}
+.btn-primary{
+  --bs-btn-bg: #657387;
+  --bs-btn-border-color: #5d708d;
+  --bs-btn-hover-bg: #262c35;
+}
+.footer
+{
+  color: #434d5b;
+  font-family: "Kalam", cursive;
+  font-weight: 400;
+  font-style: normal;
+  margin: auto;
+  align-self: center;
+}
+#centercard {
+  align-content: center !important;
+  margin: auto;
+  margin-top: 2rem !important;
+  margin-bottom: 10rem !important;
+  height: 5rem;
+  width: 30rem !important;
+  
+
+}
+
+.cardButton{
+  display: flex;
+  justify-content: space-around;
+}
+.CompanyForm{
+width: 20rem;
+height: 25rem;
+display: flex;
+flex-direction: column;
+justify-content: center;
+margin: auto;
+background-color: rgba(131, 131, 131, 0.414);
+padding: 15px;
+border-radius: 5%;
+}
+/* .Result{
+  background-color: #262c35;
+} */
+.hstack{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+}
+.card{
+  margin-top: 0;
+  width: 20rem !important;
+  min-height: 25rem;
+  height: auto;
+  --bs-card-border-radius:5%;
+  padding: 1rem;
+
+}
+.card-title{
+  border-bottom: 3px dotted #bbb;
+  padding-bottom: 2px;
+}
+.p-2{
+border: 20%;
+margin-top: 5rem;
+margin-bottom: 5rem;
+}
