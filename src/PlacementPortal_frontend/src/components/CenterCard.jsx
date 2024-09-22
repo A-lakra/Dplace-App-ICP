@@ -22,7 +22,7 @@ const CenterCard = () => {
   // }
   return (
     <Card  id="centercard" >
-      <Card.Img variant="top" src="https://www.jnncollege.edu.in/wp-content/uploads/2019/03/placementcell.png" />
+      <Card.Img variant="top" src="placementcell.png" alt="placement image"/>
       <Card.Body>
         <Card.Title>
           <strong>Welcome!</strong> to the Training And Placement Cell of National Institute of Technology, Jamshedpur.
