@@ -3,16 +3,17 @@
 Welcome to the Decentralized Placement Portal! This is a decentralized web application built on the Internet Computer Protocol (ICP), designed to streamline the process of job placements. It allows companies to post job openings, and students can apply for jobs in a secure, transparent, and decentralized environment.
 
 Features:
-1.Student Registration: Students can apply for job listings.
-2.Company Registration: Companies can register, post job opportunities, view the list of applicants and shortlist them.
-3.One-Time Applications: Students can apply only once to a particular company but can apply to multiple companies.
-4.Shortlisting: Companies can shortlist candidates from the pool of applicants. Cannot shortlist already shortlisted candiate.
-5.Decentralized Storage: All data is stored on the Internet Computer, ensuring that no single entity controls the data.
+- Student Registration: Students can apply for job listings.
+- Company Registration: Companies can register, post job opportunities, view the list of applicants and shortlist them.
+-  One-Time Applications: Students can apply only once to a particular company but can apply to multiple companies.
+- Shortlisting: Companies can shortlist candidates from the pool of applicants. Cannot shortlist already shortlisted candiate.
+- Decentralized Storage: All data is stored on the Internet Computer, ensuring that no single entity controls the data.
 
 Prerequisites:
-Node.js (v14+ recommended)
-dfx (Internet Computer SDK)
-React.js
+- Node.js (v14+ recommended)
+- dfx (Internet Computer SDK)
+- React.js
+- IC for network deployment
 
 To learn more before you start working with `PlacementPortal`, see the following documentation available online:
 
@@ -33,8 +34,8 @@ dfx canister --help
 
 If you want to test your project locally, you can use the following commands:
 
-# Clone the repository and Install the necessary dependencies::
 ```bash
+# Clone the repository and Install the necessary dependencies::
 git clone https://github.com/your-username/placement-portal.git
 cd placement-portal
 
