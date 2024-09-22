@@ -1,8 +1,18 @@
-# `PlacementPortal`
+# `Decentralized Placement Portal`
 
-Welcome to your new `PlacementPortal` project and to the Internet Computer development community. By default, creating a new project adds this README and some template files to your project directory. You can edit these template files to customize your project and to include your own code to speed up the development cycle.
+Welcome to the Decentralized Placement Portal! This is a decentralized web application built on the Internet Computer Protocol (ICP), designed to streamline the process of job placements. It allows companies to post job openings, and students can apply for jobs in a secure, transparent, and decentralized environment.
 
-To get started, you might want to explore the project directory structure and the default configuration file. Working with this project in your development environment will not affect any production deployment or identity tokens.
+Features:
+1.Student Registration: Students can apply for job listings.
+2.Company Registration: Companies can register, post job opportunities, view the list of applicants and shortlist them.
+3.One-Time Applications: Students can apply only once to a particular company but can apply to multiple companies.
+4.Shortlisting: Companies can shortlist candidates from the pool of applicants. Cannot shortlist already shortlisted candiate.
+5.Decentralized Storage: All data is stored on the Internet Computer, ensuring that no single entity controls the data.
+
+Prerequisites:
+Node.js (v14+ recommended)
+dfx (Internet Computer SDK)
+React.js
 
 To learn more before you start working with `PlacementPortal`, see the following documentation available online:
 
@@ -23,9 +33,18 @@ dfx canister --help
 
 If you want to test your project locally, you can use the following commands:
 
+# Clone the repository and Install the necessary dependencies::
+```bash
+git clone https://github.com/your-username/placement-portal.git
+cd placement-portal
+
+#Install the necessary dependencies:
+npm install
+```
+
 ```bash
 # Starts the replica, running in the background
-dfx start --background
+dfx start 
 
 # Deploys your canisters to the replica and generates your candid interface
 dfx deploy
@@ -36,7 +55,7 @@ Once the job completes, your application will be available at `http://localhost:
 If you have made changes to your backend canister, you can generate a new candid interface with
 
 ```bash
-npm run generate
+npm run generat
 ```
 
 at any time. This is recommended before starting the frontend development server, and will be run automatically any time you run `dfx deploy`.
